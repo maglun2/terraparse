@@ -1,5 +1,7 @@
 package main
 
+// adapted from: https://github.com/hashicorp/terraform/blob/master/configs/named_values.go
+
 import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty"
